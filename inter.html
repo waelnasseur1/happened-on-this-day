@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./inter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <div class="btn-group">
+        <button onclick="darkMode()">Dark Mode</button>
+        <button onclick="lightMode()">Light Mode</button>
+    </div>
+
+    <header>
+        <h1>Today Is History</h1>
+    </header>
+    <main>
+        <div id = "container">
+
+            <div id="events">
+                <form class="search">
+                    <input type="text" placeholder="month" id="monthId">
+                    <input type="text" placeholder="day" id="dayId"> <br>
+                    <button id="btn" > Search </button>
+                    <p>hint:try to type out a date to get historical events/holidays/births/deaths/selected</p>
+                    
+                </form>
+            </div>
+        </div>
+            
+    </main>
+    <div id="data">
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="inter.js"></script>
+   
+</body>
+</html>
